@@ -5,10 +5,10 @@ export const RESUME_DATA: ResumeData = {
   initials: "EC",
   location: "El Monte, CA",
   locationLink: "https://www.google.com/maps/place/El+Monte,+CA",
-  about: "Bioinformatics Software Engineer dedicated to building complex genetic lab testing workflows.",
+  about: "Software Engineer dedicated to building high-quality, scalable full-stack applications.",
   summary: (
     <>
-      Software Engineer with experience in .NET, TypeScript, and bioinformatics. Skilled in building full-stack features for Lab Information Systems, managing data pipelines, and optimizing search performance with ElasticSearch and MySQL.
+      Software Engineer with experience in .NET, TypeScript, and distributed systems. Skilled in building full-stack features for complex enterprise systems, managing data pipelines, and optimizing search performance with ElasticSearch and MySQL.
     </>
   ),
   avatarUrl: "https://github.com/echeng8.png",
@@ -42,16 +42,16 @@ export const RESUME_DATA: ResumeData = {
       company: "Fulgent Genetics",
       link: "https://www.fulgentgenetics.com/",
       badges: [".NET Core 8", "EF Core", "MS SQL", "Razor", "jQuery", "HL7"],
-      title: "Bioinformatics Software Engineer",
+      title: "Full Stack Software Engineer",
       start: "2025",
       end: null,
       description: (
         <>
-          Developing full-stack features for the Lab Information System (LIS) to support complex genetic lab testing workflows.
+          Developing full-stack features for the Lab Information System (LIS) to support complex enterprise workflows and medical data management.
           <ul className="list-inside list-disc">
-            <li>Built a "Worklist" Custom Query Engine allowing lab technicians to execute user-generated logic for medical case filtering.</li>
+            <li>Built a "Worklist" Custom Query Engine allowing lab technicians to execute user-generated logic for advanced data filtering.</li>
             <li>Developed Specimen Inventory Tracking feature with Bartender Label API integration for tracking storage and status.</li>
-            <li>Provide production support and debugging for web apps, background daemons, and HL7 data ingress for hospital clients.</li>
+            <li>Provide production support and debugging for web apps, background daemons, and HL7 data ingress for enterprise clients.</li>
           </ul>
         </>
       ),
@@ -78,8 +78,9 @@ export const RESUME_DATA: ResumeData = {
       end: "2024",
       description: (
         <>
-          Developed RESTful APIs for AI Chatbots and built asynchronous ETL pipelines in Node.js to index Google Drive and Jira.
+          Developed RESTful APIs for **Agentic search** AI Chatbots using **RAG** patterns with OpenAI API and real-time data streaming.
           <ul className="list-inside list-disc">
+            <li>Built asynchronous ETL pipelines in Node.js to index Google Drive and Jira via OAuth and webhooks.</li>
             <li>Optimized search performance with MySQL Full Text Search and ElasticSearch Vector Search.</li>
             <li>Designed Relational Schemas for SaaS features including Okta SSO/SCIM, Metabase BI, and OAuth.</li>
           </ul>
