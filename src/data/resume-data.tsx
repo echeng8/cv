@@ -1,237 +1,148 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Evan Cheng",
+  initials: "EC",
+  location: "El Monte, CA",
+  locationLink: "https://www.google.com/maps/place/El+Monte,+CA",
+  about: "Bioinformatics Software Engineer dedicated to building complex genetic lab testing workflows.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Software Engineer with experience in .NET, TypeScript, and bioinformatics. Skilled in building full-stack features for Lab Information Systems, managing data pipelines, and optimizing search performance with ElasticSearch and MySQL.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://github.com/echeng8.png",
+  personalWebsiteUrl: "https://github.com/echeng8",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "evancheng42@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/echeng8",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/echeng8/",
         icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of California, Irvine",
+      degree: "Bachelor of Science in Computer Science",
+      start: "2018",
+      end: "2022",
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
+      company: "Fulgent Genetics",
+      link: "https://www.fulgentgenetics.com/",
+      badges: [".NET Core 8", "EF Core", "MS SQL", "Razor", "jQuery", "HL7"],
+      title: "Bioinformatics Software Engineer",
       start: "2025",
       end: null,
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
+          Developing full-stack features for the Lab Information System (LIS) to support complex genetic lab testing workflows.
+          <ul className="list-inside list-disc">
+            <li>Built a "Worklist" Custom Query Engine allowing lab technicians to execute user-generated logic for medical case filtering.</li>
+            <li>Developed Specimen Inventory Tracking feature with Bartender Label API integration for tracking storage and status.</li>
+            <li>Provide production support and debugging for web apps, background daemons, and HL7 data ingress for hospital clients.</li>
+          </ul>
         </>
       ),
     },
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "Fulgent Genetics",
+      link: "https://www.fulgentgenetics.com/",
+      badges: [".NET", "MS SQL", "jQuery", "Audit Logging"],
+      title: ".NET Developer",
       start: "2024",
       end: "2025",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
+          Built corporate compliance 'Audit Logging' pages to track data versioning and developed a PCR Plate Tracking system using flexible JSON-mapped configuration.
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
+      company: "GoLinks Enterprises (YC W19)",
+      link: "https://www.golinks.io/",
+      badges: ["PHP", "MySQL", "Node.js", "OpenAI API", "ElasticSearch", "OAuth"],
+      title: "Software Engineer I",
+      start: "2022",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Developed RESTful APIs for AI Chatbots and built asynchronous ETL pipelines in Node.js to index Google Drive and Jira.
           <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
+            <li>Optimized search performance with MySQL Full Text Search and ElasticSearch Vector Search.</li>
+            <li>Designed Relational Schemas for SaaS features including Okta SSO/SCIM, Metabase BI, and OAuth.</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      company: "GoLinks Enterprises (YC W19)",
+      link: "https://www.golinks.io/",
+      badges: ["PHP", "RESTful API", "JSON", "OAuth", "Google Apps Script"],
+      title: "Software Engineer Intern",
+      start: "2022",
+      end: "2022",
+      description: "Developed external RESTful APIs for customer access and integrated Google Workspace APIs with core SaaS app.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "C#",
+    ".NET Core 6/8",
     "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
+    "JavaScript",
+    "SQL (T-SQL)",
+    "PHP",
+    "Python",
+    "C/C++",
+    "React",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Entity Framework (EF Core)",
+    "MS SQL Server",
+    "AWS (S3, RDS, EC2)",
+    "RESTful APIs",
+    "ElasticSearch",
+    "Docker",
+    "Redis",
+    "Git",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Skeleton Hell",
+      techStack: ["C#", "Unity3D", "Steam Works"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "Technical Hobby Project: Game developed with C# and Unity3D; 27,000+ downloads on Steam.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "store.steampowered.com",
+        href: "https://store.steampowered.com/app/3082170/Skeleton_Hell/",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Self Hosted Media Server",
+      techStack: ["Docker", "Linux", "Self-hosting"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+        "Technical Hobby Project: Deployed open source media server solutions via Docker and Linux environments.",
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "AWS Certified Cloud Practitioner",
+      techStack: ["AWS", "Cloud Infrastructure"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "Professional certification covering cloud infrastructure and core services.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "credly.com",
+        href: "https://www.credly.com/badges/3249c78f-d429-4282-a8a8-237f871bacaa",
       },
     },
   ],
 } as const;
+
