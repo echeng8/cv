@@ -12,7 +12,7 @@ export const RESUME_DATA: ResumeData = {
     </>
   ),
   avatarUrl: "https://github.com/echeng8.png",
-  personalWebsiteUrl: "https://github.com/echeng8",
+  personalWebsiteUrl: "https://evancheng.dev",
   contact: {
     email: "evancheng42@gmail.com",
     tel: "",
